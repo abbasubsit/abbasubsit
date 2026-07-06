@@ -23,14 +23,14 @@
     .window-border { stroke: url(#border-grad); stroke-width: 1.5; fill: none; }
     .window-header { fill: #0b0f19; stroke: #1e293b; stroke-width: 0.5; }
     .title-main { font-family: 'System-UI', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 34px; fill: url(#name-grad); animation: glow 4s infinite alternate; }
-    .text-hello { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 16px; fill: #a5b4fc; }
-    .text-desc { font-family: 'System-UI', sans-serif; font-size: 16px; fill: #94a3b8; }
+    .text-hello { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 15px; fill: #a5b4fc; }
+    .text-desc { font-family: 'System-UI', sans-serif; font-size: 15px; fill: #94a3b8; }
     .code-key { fill: #f472b6; font-family: 'JetBrains Mono', monospace; font-size: 13px; }
     .code-val { fill: #38bdf8; font-family: 'JetBrains Mono', monospace; font-size: 13px; }
     .code-string { fill: #34d399; font-family: 'JetBrains Mono', monospace; font-size: 13px; }
     .code-comment { fill: #64748b; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-style: italic; }
     .cursor { fill: #8b5cf6; animation: cursor-blink 1s infinite; }
-    .bracket { fill: #fbbf24; font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: bold; }
+    .bracket { fill: #fbbf24; font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: bold; }
     .animate-fade { animation: slide-in 1s ease-out forwards; }
   </style>
 
@@ -75,50 +75,50 @@
   <text x="795" y="37" font-family="'JetBrains Mono', monospace" font-size="11" fill="#10b981" text-anchor="end" style="animation: pulse 2s infinite;">LIVE SYSTEM</text>
 
   <!-- Left Side Contents: Brand Info -->
-  <g transform="translate(45, 90)" class="animate-fade">
+  <g transform="translate(40, 80)" class="animate-fade">
     <!-- Hello tag -->
     <text x="0" y="0" class="text-hello">&gt; hello_world.exe</text>
     
     <!-- Large Name -->
-    <text x="0" y="45" class="title-main">Muhammad Abbas</text>
+    <text x="0" y="38" class="title-main">Muhammad Abbas</text>
     
     <!-- Roles -->
-    <text x="2" y="85" font-family="'JetBrains Mono', monospace" font-size="18" fill="#f8fafc" font-weight="bold">Full-Stack &amp; AI Integrator</text>
+    <text x="2" y="72" font-family="'JetBrains Mono', monospace" font-size="18" fill="#f8fafc" font-weight="bold">Full-Stack &amp; AI Integrator</text>
     
     <!-- Bio line -->
-    <text x="2" y="115" class="text-desc">Crafting high-fidelity, intelligent web applications</text>
-    <text x="2" y="135" class="text-desc">using the MERN Stack and LLM architectures.</text>
+    <text x="2" y="102" class="text-desc">Crafting high-fidelity, intelligent web applications</text>
+    <text x="2" y="122" class="text-desc">using the MERN Stack and LLM architectures.</text>
     
     <!-- Glowing button indicators (Visual Only) -->
-    <rect x="2" y="170" width="135" height="30" rx="15" fill="#1e1b4b" stroke="#8b5cf6" stroke-width="1" />
-    <text x="70" y="189" font-family="sans-serif" font-size="12" font-weight="bold" fill="#a5b4fc" text-anchor="middle">ITSOLERA Intern</text>
+    <rect x="2" y="155" width="135" height="30" rx="15" fill="#1e1b4b" stroke="#8b5cf6" stroke-width="1" />
+    <text x="70" y="174" font-family="sans-serif" font-size="12" font-weight="bold" fill="#a5b4fc" text-anchor="middle">ITSOLERA Intern</text>
 
-    <rect x="150" y="170" width="125" height="30" rx="15" fill="#18181b" stroke="#3f3f46" stroke-width="1" />
-    <text x="212" y="189" font-family="sans-serif" font-size="12" font-weight="bold" fill="#a1a1aa" text-anchor="middle">BS IT Scholar</text>
+    <rect x="150" y="155" width="125" height="30" rx="15" fill="#18181b" stroke="#3f3f46" stroke-width="1" />
+    <text x="212" y="174" font-family="sans-serif" font-size="12" font-weight="bold" fill="#a1a1aa" text-anchor="middle">BS IT Scholar</text>
   </g>
 
   <!-- Vertical Divider -->
-  <line x1="480" y1="75" x2="480" y2="295" stroke="#1e293b" stroke-width="1" />
+  <line x1="465" y1="70" x2="465" y2="295" stroke="#1e293b" stroke-width="1" />
 
   <!-- Right Side Contents: Terminal Object Mockup -->
-  <g transform="translate(510, 85)" class="animate-fade">
+  <g transform="translate(495, 80)" class="animate-fade">
     <text x="0" y="0" class="code-comment">// Fetching developer state...</text>
     
     <!-- Code block -->
-    <text x="0" y="25" class="bracket">const <text fill="#8b5cf6">developer</text> = <text fill="#fbbf24">{</text></text>
+    <text x="0" y="20" class="bracket">const <text fill="#8b5cf6">developer</text> = <text fill="#fbbf24">{</text></text>
     
-    <text x="20" y="50" class="code-key">name: <text class="code-string">"Muhammad Abbas"</text>,</text>
-    <text x="20" y="75" class="code-key">stack: <text class="code-string">"MERN + FastAPI"</text>,</text>
-    <text x="20" y="100" class="code-key">focus: <text class="code-string">"E-Commerce &amp; AI Agents"</text>,</text>
-    <text x="20" y="125" class="code-key">currentWorkspace: <text class="code-string">"ITSOLERA Pvt Ltd"</text>,</text>
-    <text x="20" y="150" class="code-key">aiModels: <text class="bracket">[</text><text class="code-string">"LLaMA 3.3"</text>, <text class="code-string">"Gemini"</text><text class="bracket">]</text>,</text>
+    <text x="20" y="40" class="code-key">name: <text class="code-string">"Muhammad Abbas"</text>,</text>
+    <text x="20" y="60" class="code-key">stack: <text class="code-string">"MERN + FastAPI"</text>,</text>
+    <text x="20" y="80" class="code-key">focus: <text class="code-string">"E-Commerce &amp; AI Agents"</text>,</text>
+    <text x="20" y="100" class="code-key">workspace: <text class="code-string">"ITSOLERA Pvt Ltd"</text>,</text>
+    <text x="20" y="120" class="code-key">aiModels: <text class="bracket">[</text><text class="code-string">"LLaMA"</text>, <text class="code-string">"Gemini"</text><text class="bracket">]</text>,</text>
     
-    <text x="20" y="175" class="code-key">status: <text class="code-val">"ready_to_build"</text>,</text>
-    <text x="20" y="200" class="code-key">coffeeLevel: <text class="code-val">100</text></text>
+    <text x="20" y="140" class="code-key">status: <text class="code-val">"ready_to_build"</text>,</text>
+    <text x="20" y="160" class="code-key">coffeeLevel: <text class="code-val">100</text></text>
     
-    <text x="0" y="225" class="bracket">};</text>
+    <text x="0" y="180" class="bracket">};</text>
 
     <!-- Typing prompt simulator -->
-    <text x="0" y="250" font-family="'JetBrains Mono', monospace" font-size="14" fill="#a5b4fc">&gt; system.run_engine() <rect x="175" y="238" width="8" height="15" class="cursor" /></text>
+    <text x="0" y="210" font-family="'JetBrains Mono', monospace" font-size="14" fill="#a5b4fc">&gt; system.run_engine() <rect x="182" y="198" width="8" height="15" class="cursor" /></text>
   </g>
 </svg>
